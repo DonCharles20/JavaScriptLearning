@@ -1,0 +1,13 @@
+body{
+    font-family: 'Times New Roman',;
+    text-align: center;
+}  
+#rollbtn{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.Labels{
+    font-size: 6em;
+}
