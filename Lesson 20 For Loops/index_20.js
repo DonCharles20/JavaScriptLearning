@@ -1,10 +1,10 @@
-//for Loop= repeat code a Limited amout of times
+//for Loop = repeat code a Limited amout of times
 
 //for (initialization; condition; increment) {}
 
 for (let i = 0; i < 5; i++) {
   console.log(i);
-  document.getElementById("p").textContent += i + " ";
+  document.getElementById("p").textContent += i + "d ";
 }
 
 for (let i = 0; i < 6; i+=2) {//you can also use i++ or i--

@@ -19,5 +19,6 @@ do{
 console.log("Hello " + userName);
 window.alert("Hello " + userName);
 document.getElementById("p1").textContent="You are " + userName;
-document.write("<br>");//creates a line break in html
+let lineBreak = document.createElement("br");
+document.body.appendChild(lineBreak);//creates a line break in html
 document.getElementById("p2").textContent=("Your password is " + password);
