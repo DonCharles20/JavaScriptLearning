@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_29.css">
+</head>
+<body>
+    <form>
+        <h1>Password Generator</h1><br>
+        <label id="error"></label>
+
+        <label>Password length (Minimum 8 characters):</label>
+        <input id="passwordLengthInput" type="number" value="8" min="8"><br>
+
+        <div class="checkbox-container">
+            <div>
+                <input id="lowerCase" type="checkbox">
+                <label for="lowerCase">Include Lower Case</label>
+            </div>
+            <div>
+                <input id="upperCase" type="checkbox">
+                <label for="upperCase">Include Upper Case</label>
+            </div>
+            <div>
+                <input id="numbers" type="checkbox">
+                <label for="numbers">Include Numbers</label>
+            </div>
+            <div>
+                <input id="symbols" type="checkbox">
+                <label for="symbols">Include Symbols</label>
+            </div>
+        </div>
+
+        <button>Generate Password</button><br>
+        <label id="output"></label>
+
+    </form>
+    
+    <script src="index_29.js"></script>
+</body>
+</html>

@@ -11,10 +11,11 @@ const h1= document.getElementById("h1");
 h1.textContent += "Max: "+maximum;
 
 let userName="Don";
-let letters = [...userName];
+let letters = [...userName];//the word will become letters
 console.log(letters);
 const h2= document.getElementById("h2");
-h2.textContent += " "+letters;
+h2.textContent += " "+letters;//they will show up as words in the webpage
+//but will show up as letters in the console
 
 letters2 = [...userName].join("_")
 //.join joins each element in the array with the selected character
@@ -30,7 +31,7 @@ const h4= document.getElementById("h4");
 h4.textContent += " "+newNames;
 
 let places =["downtown, upstate, rock"];
-let namesNPlaces =[...names, ...places];
+let namesNPlaces =[...names, ...places,"Earth"];
 console.log(namesNPlaces);
 const h5= document.getElementById("h5");
 h5.textContent += " "+namesNPlaces;
