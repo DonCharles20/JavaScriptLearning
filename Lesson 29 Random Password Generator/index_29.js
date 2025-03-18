@@ -1,3 +1,4 @@
+//Random Password Generator
 document.addEventListener("DOMContentLoaded", function() {
     function generatePassword(passwordLength, includeLowercase, includeUpperCase, includeNumbers, includeSymbols) {
         const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
