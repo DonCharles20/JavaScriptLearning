@@ -1,5 +1,5 @@
 /** this = refrence to the object where This is used
- *          (the obhect depends on the immediate context)
+ *          (the object depends on the immediate context)
  *           Object.name =this.name;
  *           The this keyword does not work with arrow functions "=>"
  */
