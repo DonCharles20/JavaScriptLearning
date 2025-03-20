@@ -6,8 +6,8 @@
             2.network requests
             3.interacting with databases*/
 
-sum(displayconsole, 1, 2);/*hello() will be called first before leave()
-putting a parenthesis next to leave will cause it to be called immediately */
+sum(displayconsole, 1, 2);/*sum() will be called first before displayconsole()
+putting a parenthesis next to displayconsole will cause it to be called immediately */
 sum(displayPage, 1, 2);
 
 function sum(callback, x, y){
