@@ -1,0 +1,28 @@
+[   {
+        "name": "Aizen",
+        "age":25,
+        "isEvil": true
+    },
+
+    {
+        "name": "Joker",
+        "age":30,
+        "isEvil": true
+    },
+
+    {
+        "name": "Lelouch",
+        "age":30,
+        "isEvil": false
+    },
+
+    {
+        "name": "Deadpool",
+        "age":30,
+        "isEvil": false
+    }
+
+
+    
+
+]

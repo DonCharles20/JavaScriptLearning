@@ -1,0 +1,9 @@
+.box{
+    border: 3px solid;
+    width: 50%;
+    height: 125px;
+}
+#BR{
+    border: 3px solid;
+    font-size: 2rem;
+}
